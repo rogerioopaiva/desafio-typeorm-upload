@@ -1,4 +1,4 @@
-import { getCustomRepository, getRepository, In, Index } from 'typeorm';
+import { getCustomRepository, getRepository, In } from 'typeorm';
 import csvParse from 'csv-parse';
 import fs from 'fs';
 import Transaction from '../models/Transaction';
