@@ -2,8 +2,6 @@ import { getCustomRepository } from 'typeorm';
 
 import AppError from '../errors/AppError';
 
-import Transaction from '../errors/AppError';
-
 import Transactionsrepository from '../repositories/TransactionsRepository';
 
 class DeleteTransactionService {
